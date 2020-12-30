@@ -21,13 +21,14 @@
         </dependency>
     </dependencies>
   <plugins>
-            <plugin>
+        <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.0</version>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.12.4</version>
         <configuration>
-            <source>11</source> 
-            <target>11</target>
+            <includes>
+                <include>CheckingTest.java</include>
+            </includes>
         </configuration>
     </plugin>
  </plugins>
