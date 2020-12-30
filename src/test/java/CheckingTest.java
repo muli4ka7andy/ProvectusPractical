@@ -14,7 +14,7 @@ public class CheckingTest {
 
     public void setUp() {
 
-        System.setProperty("webdriver.opera.driver", "C:\Users\Андрей\operadriver_win64\operadriver.exe");
+        System.setProperty("webdriver.opera.driver", "src/operadriver.exe");
         driver = new OperaDriver();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
