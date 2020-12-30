@@ -1,0 +1,9 @@
+
+<suite name="TestSuite">
+    <test name="AutoQA">
+        <classes>
+            <class name="CheckingTest" />
+        </classes>
+    </test>
+</suite>
+
